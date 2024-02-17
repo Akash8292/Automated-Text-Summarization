@@ -9,9 +9,17 @@ The system then uses the pre-trained `facebook/bart-large-cnn` model from Huggin
 The quality of the generated summary is evaluated using BLEU, ROUGE, and METEOR scores. The system outputs the original text, the extractive and abstractive summaries, the final summary, and the evaluation scores. The end result is a concise, high-quality summary of the original text, demonstrating the effectiveness of combining different summarization techniques and evaluation metrics.
 
 ## Highlights
+
+### Extractive Summerization 
+
 ![Screenshot 2024-02-17 224415](https://github.com/Akash8292/Automated-Text-Summarization-/assets/97883391/d0601fd1-f6f4-4d65-a4aa-4aa2441c411c)
 
+### Abstractive Summerization 
+
 ![Screenshot 2024-02-17 224510](https://github.com/Akash8292/Automated-Text-Summarization-/assets/97883391/fb0ccca4-1545-451a-bba3-ad6332c5cf35)
+
+### Generated summerization
+
 ![Screenshot 2024-02-17 224622](https://github.com/Akash8292/Automated-Text-Summarization-/assets/97883391/16bbe138-a1c6-4460-a822-e522596d42cc)
 
 
