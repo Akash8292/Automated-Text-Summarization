@@ -1,4 +1,3 @@
-# Automated Text Summarization 
 ## About
 
 # Abstract
@@ -8,12 +7,14 @@ The system then uses the pre-trained `facebook/bart-large-cnn` model from Huggin
 
 The quality of the generated summary is evaluated using BLEU, ROUGE, and METEOR scores. The system outputs the original text, the extractive and abstractive summaries, the final summary, and the evaluation scores. The end result is a concise, high-quality summary of the original text, demonstrating the effectiveness of combining different summarization techniques and evaluation metrics.
 
-## Detail
+# Details
 The TfidfVectorizer in the code is used for converting a collection of raw documents into a matrix of TF-IDF features. It works by tokenizing the text, counting the occurrences of tokens, and then normalizing the counts based on the term frequency-inverse document frequency (TF-IDF) principle.The TF-IDF value of a term in a document is the product of its term frequency (TF) and inverse document frequency (IDF). The TF-IDF value increases proportionally to the number of times a word appears in the document and is offset by the frequency of the word in the corpus. This helps in emphasizing words that are more specific to a particular document while discounting common words that occur in many documents.
 
 The TfidfVectorizer in the code leverages this functionality to transform the filtered sentences into a TF-IDF matrix, where each row represents a sentence, and each column represents a unique word in the corpus. This matrix is then used to calculate the importance of sentences based on their TF-IDF scores and to perform tasks such as extractive summarization.
 
 In summary, the TfidfVectorizer is a crucial component for text processing and feature extraction, providing a numerical representation of text data that can be utilized for various natural language processing tasks, including document summarization, classification, and clustering.
+
+![image](https://github.com/Akash8292/Automated-Text-Summarization/assets/97883391/37f112c8-7c45-4e49-ac8e-d50af434d89a)
 
 ### Cosine Similarity
 Cosine similarity is a measure used to determine how similar two vectors are in a multi-dimensional space. In the context of natural language processing, it is often used to assess the similarity between two documents represented as vectors in a high-dimensional space, such as the TF-IDF vector space.
@@ -28,7 +29,7 @@ ROUGE is a set of metrics designed to evaluate the quality of summaries generate
 The METEOR score is an evaluation metric for machine translation and text generation, focusing on the alignment and matching of words and phrases between the generated output and the reference text. It incorporates various linguistic features such as stemming, synonyms, and paraphrases to provide a more comprehensive assessment of the similarity between the generated text and the reference text. The METEOR score is designed to address some limitations of other metrics like BLEU by considering a wider range of linguistic variations and providing a more nuanced evaluation of the generated output.
 These evaluation metrics are essential for assessing the quality and accuracy of machine-generated text across different natural language processing tasks, including machine translation, text summarization, and language generation.
 
-## Highlights
+# Highlights
 
 ### Extractive Summerization 
 
