@@ -59,6 +59,7 @@ Python>=3.8
 3. In this code you can upload your own .pdf aur you can write your text insted of using a .pdf.
 
 ## Result
+
 ### Generated summerization
 
 ![Screenshot 2024-02-27 112648](https://github.com/Akash8292/Automated-Text-Summarization/assets/97883391/db766445-6a3e-432c-a7de-efccfc0342f3)
