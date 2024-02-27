@@ -42,12 +42,12 @@ These evaluation metrics are essential for assessing the quality and accuracy of
 
 ### Extractive Summerization 
 
-![Screenshot 2024-02-27 112540](https://github.com/Akash8292/Automated-Text-Summarization/assets/97883391/831eaa2c-c35e-499c-b825-cd21582e634b)
+![Screenshot 2024-02-27 112516](https://github.com/Akash8292/Automated-Text-Summarization/assets/97883391/e8b42772-333f-4e61-95c1-dcbc0aac6e7f)
 
 
 ### Abstractive Summerization 
 
-![Screenshot 2024-02-27 112516](https://github.com/Akash8292/Automated-Text-Summarization/assets/97883391/e8b42772-333f-4e61-95c1-dcbc0aac6e7f)
+![Screenshot 2024-02-27 114046](https://github.com/Akash8292/Automated-Text-Summarization/assets/97883391/a65e2162-c6cc-4a00-814b-1a57a211a272)
 
 
 ## Prerequisites
